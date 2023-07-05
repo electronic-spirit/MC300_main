@@ -1,4 +1,4 @@
-Core/Src/ADS7843.o: ../Core/Src/ADS7843.c ../Core/Inc/ADS7843.h \
+Core/Src/ELSPIRE_OS.o: ../Core/Src/ELSPIRE_OS.c ../Core/Inc/ELSPIRE_OS.h \
  ../Core/Inc/main.h ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../Core/Inc/stm32h7xx_hal_conf.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
@@ -50,14 +50,15 @@ Core/Src/ADS7843.o: ../Core/Src/ADS7843.c ../Core/Inc/ADS7843.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h \
  ../Core/Inc/GlobalVariables.h ../Core/Inc/ELSPIRE_OS.h \
- ../TouchGFX/App/app_touchgfx.h ../Core/Inc/ModBusSlave.h \
- ../Core/Inc/UART_OUT.h ../Core/Inc/UART_IN.h ../Core/Inc/UART_PRESSURE.h \
- ../Core/Inc/SwitchOff.h ../Core/Inc/BQ40Z50.h ../Core/Inc/ModBusMaster.h \
- ../Core/Inc/Buttons.h ../Core/Inc/Units.h ../Core/Inc/BMP390.h \
- ../Core/Inc/CD4052.h ../Core/Inc/Save.h ../Core/Inc/ThermocoupleMath.h \
+ ../Core/Inc/ModBusSlave.h ../Core/Inc/UART_OUT.h ../Core/Inc/UART_IN.h \
+ ../Core/Inc/UART_PRESSURE.h ../Core/Inc/SwitchOff.h \
+ ../Core/Inc/BQ40Z50.h ../Core/Inc/ModBusMaster.h ../Core/Inc/Buttons.h \
+ ../Core/Inc/Units.h ../Core/Inc/BMP390.h ../Core/Inc/CD4052.h \
+ ../Core/Inc/Save.h ../Core/Inc/ThermocoupleMath.h \
  ../Core/Inc/ThermoresistanceMath.h ../Core/Inc/ThermoCalculator.h \
- ../TouchGFX/generated/texts/include/texts/TextKeysAndLanguages.hpp
-../Core/Inc/ADS7843.h:
+ ../TouchGFX/generated/texts/include/texts/TextKeysAndLanguages.hpp \
+ ../TouchGFX/App/app_touchgfx.h
+../Core/Inc/ELSPIRE_OS.h:
 ../Core/Inc/main.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../Core/Inc/stm32h7xx_hal_conf.h:
@@ -111,7 +112,6 @@ Core/Src/ADS7843.o: ../Core/Src/ADS7843.c ../Core/Inc/ADS7843.h \
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h:
 ../Core/Inc/GlobalVariables.h:
 ../Core/Inc/ELSPIRE_OS.h:
-../TouchGFX/App/app_touchgfx.h:
 ../Core/Inc/ModBusSlave.h:
 ../Core/Inc/UART_OUT.h:
 ../Core/Inc/UART_IN.h:
@@ -128,3 +128,4 @@ Core/Src/ADS7843.o: ../Core/Src/ADS7843.c ../Core/Inc/ADS7843.h \
 ../Core/Inc/ThermoresistanceMath.h:
 ../Core/Inc/ThermoCalculator.h:
 ../TouchGFX/generated/texts/include/texts/TextKeysAndLanguages.hpp:
+../TouchGFX/App/app_touchgfx.h:

@@ -1,0 +1,5 @@
+../Core/Src/ADS7843.c:19:6:ADS7843_Init	4	static
+../Core/Src/ADS7843.c:28:17:ADS7843_Read_AD	24	static
+../Core/Src/ADS7843.c:48:10:absTouch	16	static
+../Core/Src/ADS7843.c:54:16:besttwoavg	16	static
+../Core/Src/ADS7843.c:77:9:ADS7843_Update	16	static

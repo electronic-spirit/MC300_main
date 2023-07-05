@@ -1,5 +1,5 @@
-Core/Src/ADS7843.o: ../Core/Src/ADS7843.c ../Core/Inc/ADS7843.h \
- ../Core/Inc/main.h ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
+Core/Src/fmc.o: ../Core/Src/fmc.c ../Core/Inc/fmc.h ../Core/Inc/main.h \
+ ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../Core/Inc/stm32h7xx_hal_conf.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h \
@@ -57,7 +57,7 @@ Core/Src/ADS7843.o: ../Core/Src/ADS7843.c ../Core/Inc/ADS7843.h \
  ../Core/Inc/CD4052.h ../Core/Inc/Save.h ../Core/Inc/ThermocoupleMath.h \
  ../Core/Inc/ThermoresistanceMath.h ../Core/Inc/ThermoCalculator.h \
  ../TouchGFX/generated/texts/include/texts/TextKeysAndLanguages.hpp
-../Core/Inc/ADS7843.h:
+../Core/Inc/fmc.h:
 ../Core/Inc/main.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../Core/Inc/stm32h7xx_hal_conf.h:

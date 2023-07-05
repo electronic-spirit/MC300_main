@@ -1,0 +1,8 @@
+../Core/Src/ELSPIRE_OS.c:46:6:ELSPIRE_OS_KERNEL	8	static
+../Core/Src/ELSPIRE_OS.c:61:6:ELSPIRE_OS_TIMER	16	static
+../Core/Src/ELSPIRE_OS.c:76:6:sleep	16	static
+../Core/Src/ELSPIRE_OS.c:82:6:Task_STOP	16	static
+../Core/Src/ELSPIRE_OS.c:88:6:Task_RUN	16	static
+../Core/Src/ELSPIRE_OS.c:94:6:delay_ms	16	static
+../Core/Src/ELSPIRE_OS.c:101:6:TaskAsigner	16	static
+../Core/Src/ELSPIRE_OS.c:110:9:Battery	24	static

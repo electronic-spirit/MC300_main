@@ -1,5 +1,6 @@
-Core/Src/ADS7843.o: ../Core/Src/ADS7843.c ../Core/Inc/ADS7843.h \
- ../Core/Inc/main.h ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
+Core/Src/ModBusSlave.o: ../Core/Src/ModBusSlave.c \
+ ../Core/Inc/ModBusSlave.h \
+ ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../Core/Inc/stm32h7xx_hal_conf.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_def.h \
@@ -49,16 +50,24 @@ Core/Src/ADS7843.o: ../Core/Src/ADS7843.c ../Core/Inc/ADS7843.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h \
  ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h \
- ../Core/Inc/GlobalVariables.h ../Core/Inc/ELSPIRE_OS.h \
- ../TouchGFX/App/app_touchgfx.h ../Core/Inc/ModBusSlave.h \
- ../Core/Inc/UART_OUT.h ../Core/Inc/UART_IN.h ../Core/Inc/UART_PRESSURE.h \
- ../Core/Inc/SwitchOff.h ../Core/Inc/BQ40Z50.h ../Core/Inc/ModBusMaster.h \
- ../Core/Inc/Buttons.h ../Core/Inc/Units.h ../Core/Inc/BMP390.h \
- ../Core/Inc/CD4052.h ../Core/Inc/Save.h ../Core/Inc/ThermocoupleMath.h \
+ ../Core/Inc/main.h ../Core/Inc/GlobalVariables.h \
+ ../Core/Inc/ELSPIRE_OS.h ../TouchGFX/App/app_touchgfx.h \
+ ../Core/Inc/ModBusSlave.h ../Core/Inc/UART_OUT.h ../Core/Inc/UART_IN.h \
+ ../Core/Inc/UART_PRESSURE.h ../Core/Inc/SwitchOff.h \
+ ../Core/Inc/BQ40Z50.h ../Core/Inc/ModBusMaster.h ../Core/Inc/Buttons.h \
+ ../Core/Inc/Units.h ../Core/Inc/BMP390.h ../Core/Inc/CD4052.h \
+ ../Core/Inc/Save.h ../Core/Inc/ThermocoupleMath.h \
  ../Core/Inc/ThermoresistanceMath.h ../Core/Inc/ThermoCalculator.h \
- ../TouchGFX/generated/texts/include/texts/TextKeysAndLanguages.hpp
-../Core/Inc/ADS7843.h:
-../Core/Inc/main.h:
+ ../TouchGFX/generated/texts/include/texts/TextKeysAndLanguages.hpp \
+ ../USB_DEVICE/App/usbd_cdc_if.h \
+ ../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h \
+ ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
+ ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h \
+ ../USB_DEVICE/Target/usbd_conf.h ../Core/Inc/main.h \
+ ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h \
+ ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h \
+ ../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h
+../Core/Inc/ModBusSlave.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../Core/Inc/stm32h7xx_hal_conf.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h:
@@ -109,6 +118,7 @@ Core/Src/ADS7843.o: ../Core/Src/ADS7843.c ../Core/Inc/ADS7843.h \
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h:
 ../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h:
+../Core/Inc/main.h:
 ../Core/Inc/GlobalVariables.h:
 ../Core/Inc/ELSPIRE_OS.h:
 ../TouchGFX/App/app_touchgfx.h:
@@ -128,3 +138,12 @@ Core/Src/ADS7843.o: ../Core/Src/ADS7843.c ../Core/Inc/ADS7843.h \
 ../Core/Inc/ThermoresistanceMath.h:
 ../Core/Inc/ThermoCalculator.h:
 ../TouchGFX/generated/texts/include/texts/TextKeysAndLanguages.hpp:
+../USB_DEVICE/App/usbd_cdc_if.h:
+../Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc/usbd_cdc.h:
+../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h:
+../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_def.h:
+../USB_DEVICE/Target/usbd_conf.h:
+../Core/Inc/main.h:
+../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_core.h:
+../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ioreq.h:
+../Middlewares/ST/STM32_USB_Device_Library/Core/Inc/usbd_ctlreq.h:

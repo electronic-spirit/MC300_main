@@ -1,0 +1,8 @@
+../Core/Src/ModBusMaster.c:8:10:WriteFloatToBUFF	32	static
+../Core/Src/ModBusMaster.c:30:10:WriteInt32ToBUFF	32	static
+../Core/Src/ModBusMaster.c:52:10:WriteUint32ToBUFF	32	static
+../Core/Src/ModBusMaster.c:74:10:WriteUint16ToBUFF	32	static
+../Core/Src/ModBusMaster.c:91:7:TakeFloatFromBUFF	24	static
+../Core/Src/ModBusMaster.c:107:9:TakeINT32FromBUFF	24	static
+../Core/Src/ModBusMaster.c:120:10:TakeUINT16FromBUFF	16	static
+../Core/Src/ModBusMaster.c:126:10:RegisterRequest	32	static

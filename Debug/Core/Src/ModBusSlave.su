@@ -1,0 +1,15 @@
+../Core/Src/ModBusSlave.c:35:10:crc16	32	static
+../Core/Src/ModBusSlave.c:65:6:Init_modbus	4	static
+../Core/Src/ModBusSlave.c:76:8:ReadDoubleFromREG	32	static
+../Core/Src/ModBusSlave.c:93:6:WriteDoubleToREG	32	static
+../Core/Src/ModBusSlave.c:103:6:WriteFloatToREG	24	static
+../Core/Src/ModBusSlave.c:111:6:WriteInt32ToREG	24	static
+../Core/Src/ModBusSlave.c:123:6:process_modbus	24	static
+../Core/Src/ModBusSlave.c:241:6:read_reg	16	static
+../Core/Src/ModBusSlave.c:249:6:write_reg	16	static
+../Core/Src/ModBusSlave.c:257:6:mb_03_read_holding_register	24	static
+../Core/Src/ModBusSlave.c:291:6:mb_06_preset_single_register	16	static
+../Core/Src/ModBusSlave.c:322:6:mb_10_preset_multiple	16	static
+../Core/Src/ModBusSlave.c:350:16:read_reg16	16	static
+../Core/Src/ModBusSlave.c:357:6:write_reg16	16	static
+../Core/Src/ModBusSlave.c:365:6:process_modbus_fast	4	static

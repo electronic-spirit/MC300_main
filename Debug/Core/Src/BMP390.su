@@ -1,0 +1,9 @@
+../Core/Src/BMP390.c:161:13:BMP390_Write_Byte	32	static
+../Core/Src/BMP390.c:168:16:BMP390_Read_Byte	40	static
+../Core/Src/BMP390.c:178:13:Read_Parameters	80	static
+../Core/Src/BMP390.c:258:14:BMP390_compensate_temperature	24	static
+../Core/Src/BMP390.c:275:14:BMP390_compensate_pressure	48	static
+../Core/Src/BMP390.c:310:7:Temperature_Read	16	static
+../Core/Src/BMP390.c:323:7:Pressure_Read	16	static
+../Core/Src/BMP390.c:336:9:BMP390_Init	16	static
+../Core/Src/BMP390.c:364:6:BMP390_process	8	static
