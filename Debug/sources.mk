@@ -1,0 +1,105 @@
+################################################################################
+# Automatically-generated file. Do not edit!
+# Toolchain: GNU Tools for STM32 (10.3-2021.10)
+################################################################################
+
+ELF_SRCS := 
+C_UPPER_SRCS := 
+CXX_SRCS := 
+C++_SRCS := 
+OBJ_SRCS := 
+S_SRCS := 
+CC_SRCS := 
+C_SRCS := 
+CPP_SRCS := 
+S_UPPER_SRCS := 
+O_SRCS := 
+OBJDUMP_LIST := 
+C_UPPER_DEPS := 
+S_DEPS := 
+C_DEPS := 
+CC_DEPS := 
+SIZE_OUTPUT := 
+C++_DEPS := 
+SU_FILES := 
+EXECUTABLES := 
+OBJS := 
+CXX_DEPS := 
+MAP_FILES := 
+S_UPPER_DEPS := 
+CPP_DEPS := 
+
+# Every subdirectory with source files must be described here
+SUBDIRS := \
+Core/Src \
+Core/Startup \
+Drivers/STM32H7xx_HAL_Driver/Src \
+Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Src \
+Middlewares/ST/STM32_USB_Device_Library/Core/Src \
+TouchGFX/App \
+TouchGFX/build/MINGW32_NT-6.2/gui/src/displaysettingsscreen_screen \
+TouchGFX/build/MINGW32_NT-6.2/gui/src/settingsscreen_screen \
+TouchGFX/generated/fonts/src \
+TouchGFX/generated/gui_generated/src/calibratorscreen_new_screen \
+TouchGFX/generated/gui_generated/src/common \
+TouchGFX/generated/gui_generated/src/containers \
+TouchGFX/generated/gui_generated/src/currentsettings_screen \
+TouchGFX/generated/gui_generated/src/displaysettingsscreen_screen \
+TouchGFX/generated/gui_generated/src/frequencysettings_screen \
+TouchGFX/generated/gui_generated/src/mainscreen_screen \
+TouchGFX/generated/gui_generated/src/measuretypescreen_screen \
+TouchGFX/generated/gui_generated/src/numbereditor_screen \
+TouchGFX/generated/gui_generated/src/powersourcesettings_screen \
+TouchGFX/generated/gui_generated/src/pressureexternalsettings_screen \
+TouchGFX/generated/gui_generated/src/pressuresettings_screen \
+TouchGFX/generated/gui_generated/src/pulseedgesettings_screen \
+TouchGFX/generated/gui_generated/src/pulsesettings_screen \
+TouchGFX/generated/gui_generated/src/pwmsettings_screen \
+TouchGFX/generated/gui_generated/src/resistancesettings_screen \
+TouchGFX/generated/gui_generated/src/screen1_screen \
+TouchGFX/generated/gui_generated/src/settingsscreen_screen \
+TouchGFX/generated/gui_generated/src/switchsettings_screen \
+TouchGFX/generated/gui_generated/src/thermocouple_sensortype_screen \
+TouchGFX/generated/gui_generated/src/thermocouple_settings_screen \
+TouchGFX/generated/gui_generated/src/thermocouplesettings_screen \
+TouchGFX/generated/gui_generated/src/thermoresistance_settings_screen \
+TouchGFX/generated/gui_generated/src/thermoresistance_trc_screen \
+TouchGFX/generated/gui_generated/src/thermoresistance_types_screen \
+TouchGFX/generated/gui_generated/src/timesettings_screen \
+TouchGFX/generated/gui_generated/src/voltagesettings_screen \
+TouchGFX/generated/images/src \
+TouchGFX/generated/images/src/__designer \
+TouchGFX/generated/texts/src \
+TouchGFX/gui/src/calibratorscreen_new_screen \
+TouchGFX/gui/src/common \
+TouchGFX/gui/src/containers \
+TouchGFX/gui/src/currentsettings_screen \
+TouchGFX/gui/src/displaysettingsscreen_screen \
+TouchGFX/gui/src/frequencysettings_screen \
+TouchGFX/gui/src/mainscreen_screen \
+TouchGFX/gui/src/measuretypescreen_screen \
+TouchGFX/gui/src/model \
+TouchGFX/gui/src/numbereditor_screen \
+TouchGFX/gui/src/powersourcesettings_screen \
+TouchGFX/gui/src/pressureexternalsettings_screen \
+TouchGFX/gui/src/pressuresettings_screen \
+TouchGFX/gui/src/pulseedgesettings_screen \
+TouchGFX/gui/src/pulsesettings_screen \
+TouchGFX/gui/src/pwmsettings_screen \
+TouchGFX/gui/src/resistancesettings_screen \
+TouchGFX/gui/src/screen1_screen \
+TouchGFX/gui/src/settingsscreen_screen \
+TouchGFX/gui/src/switchsettings_screen \
+TouchGFX/gui/src/thermocouple_sensortype_screen \
+TouchGFX/gui/src/thermocouple_settings_screen \
+TouchGFX/gui/src/thermocouplesettings_screen \
+TouchGFX/gui/src/thermoresistance_settings_screen \
+TouchGFX/gui/src/thermoresistance_trc_screen \
+TouchGFX/gui/src/thermoresistance_types_screen \
+TouchGFX/gui/src/timesettings_screen \
+TouchGFX/gui/src/voltagesettings_screen \
+TouchGFX/target \
+TouchGFX/target/generated \
+USB_DEVICE/App \
+USB_DEVICE/Target \
+
