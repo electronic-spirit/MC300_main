@@ -1,0 +1,3 @@
+../Core/Src/ThermoCalculator.c:11:6:ThermoCalculator_process	16	static
+../Core/Src/ThermoCalculator.c:47:7:ReturnTXCFromSource	16	static
+../Core/Src/ThermoCalculator.c:59:12:TCtypeConverter	16	static

@@ -1,0 +1,6 @@
+../Core/Src/Units.c:4:8:ConvertUnit_Pressure	32	static
+../Core/Src/Units.c:40:8:ConvertUnit_Voltage	32	static
+../Core/Src/Units.c:61:8:ConvertUnit_Current	32	static
+../Core/Src/Units.c:83:8:ConvertUnit_Temperature	32	static
+../Core/Src/Units.c:101:8:ConvertUnit_Frequency	32	static
+../Core/Src/Units.c:126:8:ConvertUnit_Resistance	32	static

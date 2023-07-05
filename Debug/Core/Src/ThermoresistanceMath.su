@@ -1,0 +1,6 @@
+../Core/Src/ThermoresistanceMath.c:37:8:Thermoresistance_PT_direct	32	static
+../Core/Src/ThermoresistanceMath.c:45:8:Thermoresistance_CU_direct	32	static
+../Core/Src/ThermoresistanceMath.c:53:8:Thermoresistance_NI_direct	32	static
+../Core/Src/ThermoresistanceMath.c:60:8:Thermoresistance_PT_inverse	64	static
+../Core/Src/ThermoresistanceMath.c:77:8:Thermoresistance_CU_inverse	64	static
+../Core/Src/ThermoresistanceMath.c:94:8:Thermoresistance_NI_inverse	64	static
